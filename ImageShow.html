@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <title>ImageShow</title>
+        <style>
+            body {
+                background-image: url("fabric.png");
+            }
+            #grad1 {
+              background-color: #155799; /* For browsers that do not support gradients */
+              background-image:linear-gradient(120deg, #155799, #159957)
+            }
+            table,th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding-left:10px
+            }
+            </style>
+    </head>
+ 
+    <body>
+        <div id="grad1">
+            <h1 style="text-align:center;color:white;">ImageShow</h1>
+        </div>
+        <img src="ImageShow.jpg" alt="Logo">
+        <h1>Contents</h1>
+        <ul>
+            <h2>
+            <a href="#Overview"><li>Overview</li></a>
+            <a href="#Features"><li>Features</li></a>
+            <a href="#VersionHistory"><li>Version History</li></a>
+            <a href="#FAQ"><li>Frequently Asked Questions (FAQ)</li></a>
+            <a href="#Privacy"><li>Privacy Statement</li></a>
+            </h2>
+        </ul>
+        <a id="Overview">
+            <p><h2>Overview</h2></p>
+        </a>
+        ImageShow is a modern GPU-accelerated image and slideshow viewer app. Slideshow of images is generated at run-time with effects, transitions and background music as configured.  
+        <a id="Features"><p><h2>Features</h2></p></a>
+        <h3>Image Explorer</h3>
+        ImageShow has a built-in image explorer for quickly browsing images that are shown as thumbnails. The following image formats are currently supported
+        <ul>
+            <li>Windows Bitmap Format (.bmp, .dib)</li>
+            <li>DirectDraw Surface (.dds)</li>
+            <li>Digital Negative (.dng)</li>
+            <li>Graphics Interchange Format (.gif)</li>
+            <li>High Efficiency Image File (.heic, .heif)</li>
+            <li>Icon File (.ico)</li>
+            <li>Joint Photographic Experts Group (.jpe, .jpeg, .jpg)</li>
+            <li>JPEG Extended Range format (.jxr)</li>
+            <li>JPEG File Interchange Format (.jfi, .jfif, .jif)</li>
+            <li>Portable Network Graphics (.png)</li>
+            <li>Tagged Image File Format (.tif, .tiff)</li>
+            <li>Windows Media Photo (.wdp)</li>
+        </ul>
+        Images can also be flipped and viewed one at a time in the app's window size. The image is automatically scaled-up or scaled-down to fit the window size while maintaining the aspect ratio. In flip view mode, useful information about the image can be seen easily.
+        <a id="VersionHistory"><p><h2>Version History</h2></p></a>
+        <table style="width:100%">
+            <tr>
+              <th style="width:10%" align="left">Version</th>
+              <th style="width:15%" align="left">Release date</th>
+              <th align="left">Highlights</th>
+            </tr>
+            <tr>
+              <td>0.1</td>
+              <td>21 January 2022</td>
+              <td>First Release. Features image explorer.</td>
+            </tr>
+        </table>
+        <a id="FAQ"><p><h2>Frequently Asked Questions (FAQ)</h2></p></a>
+        <ul>
+            <li>Why can't I view High Efficiency Image files (.heic, .heif)? </li>
+            <p>ImageShow relies on Windows to support decoding of these formats. Please install the "HEIF Image Extensions" app published by Microsoft from the Store.</p>
+        </ul>
+        <a id="Privacy"><p><h2>Privacy Statement</h2></p></a>
+        <ul>
+            <li><h3>Personal Information Collection</h3>ImageShow does not collect, store, share or publish any personal information.</li>
+            <li><h3>Non-personal Information Collection</h3>I use App Center to keep track of app usage, find bugs, and fix crashes. All information sent to App Center is anonymous and free of any user or contextual data.</li>
+            <li><h3>Consent</h3>By using ImageShow, you hereby consent to this Privacy Policy.</li>
+        </ul>
+        I reserve the right to make changes to this policy. Last updated 15<sup>th</sup> January 2022.
+    </body>
+</html>
